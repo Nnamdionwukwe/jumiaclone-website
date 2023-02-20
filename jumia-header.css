@@ -1,0 +1,420 @@
+@media (max-width: 1320px) {
+  .home-page-div {
+    display: none;
+  }
+
+  .header-pic {
+    display: flex;
+    justify-content: center;
+    background-color: white;
+    margin-top: -10px;
+    margin-bottom: 5px;
+  }
+
+  .header-pic div img {
+    width: 1034px;
+    height: 60px;
+    object-fit: cover;
+    cursor: pointer;
+  }
+
+  .sub-header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 35px;
+  
+  background-color: rgb(238, 237, 237);
+  }
+
+  .sell {
+    flex-shrink: 0;
+  }
+  
+
+  .pay-div {
+    flex: 1;
+    max-width: 62%;
+    margin-left: 200px;
+  }
+
+  .search-div {
+    margin-left: -70px;
+  }
+
+  .search-div input {
+    outline: none;
+    border: none;
+    width: 350px;
+    height: 38px;
+    font-size: 19px;
+    color: gray;
+    padding-left: 10px;
+  }
+
+  .account-div {
+    margin-left: 20px;
+    margin-right: -2px;
+  }
+
+  
+  .left-header {
+   margin: 0% -1% 0% 7%; 
+  }
+
+  .account1 {
+    margin-left: 30px;
+  }
+
+}
+
+
+
+
+@media (min-width: 1321px) {
+  
+  .header-pic {
+    display: flex;
+    justify-content: center;
+    background-color: white;
+    margin-top: -20px;
+    margin-bottom: -5px;
+  }
+
+  .header-pic div img {
+    width: 1305px;
+    margin-right: -10px;
+    height: 60px;
+    object-fit: cover;
+    cursor: pointer;
+  }
+
+  .sub-header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 35px;
+    margin-left: -5px;
+    background-color: rgb(238, 237, 237);
+  }
+
+  .sell-div {
+    display: flex;
+    max-width: 20%;
+    margin-left: 100px;
+    margin-right: 200px;
+  }
+
+  .sell {
+    flex-shrink: 0;
+  }
+  
+
+  .pay-div {
+    flex: 1;
+    max-width: 80%;
+    margin-left: 150px;
+  }
+
+
+  .left-header {
+    margin-left: 100px;
+  }
+
+  .right-header {
+    margin-left: -24px;
+  }
+
+  .search-div input {
+    outline: none;
+    border: none;
+    width: 570px;
+    height: 38px;
+    font-size: 19px;
+    color: gray;
+    padding-left: 10px;
+  }
+
+  .account-div {
+    margin-left: 20px;
+    margin-right: -2px;
+  }
+
+  .first-pic {
+    display: flex;
+    max-width: 80%;
+    justify-content: ceter;
+  }
+}
+
+
+
+
+
+.pay-div {
+  display: flex;
+  align-items: center;
+}
+
+.sell-div {
+  flex-shrink: 0;
+}
+
+.sell {
+  
+  color: darkorange;
+  cursor: pointer;
+}
+
+.sell:hover {
+  text-decoration: underline;
+}
+
+
+.header-logo {
+  width: 60px;
+  height: 32px;
+  margin-top: 5.5px;
+  margin-right: 20px;
+  object-fit: cover;
+}
+
+.pay, .pay1, .pay2 {
+  margin-right: 20px;
+  color: gray;
+  font-style: italic;
+  cursor: pointer;
+  opacity: 0.4;
+}
+
+.pay:hover {
+  color: rgb(44, 44, 243);
+  opacity: 1;
+}
+
+.pay1:hover {
+  color: orange;
+  opacity: 1;
+}
+
+.pay2:hover {
+  color:rgb(145, 98, 12);
+  opacity: 1;
+}
+
+.pay-div2 {
+  position: relative;
+}
+
+.jumia-pay {
+  position: absolute;
+  bottom: -30px;
+  left: 20px;
+  z-index: 1000;
+  opacity: 0;
+  cursor: pointer;
+  pointer-events: none;
+}
+
+.pay-div2:hover .jumia-pay {
+  opacity: 1;
+  transition: 1s;
+}
+
+.jumia-pay1 {
+  font-size: 14px;
+  padding: 5px;
+  border: 1px solid;
+  background-color: white;
+}
+
+.jumia-pay2 {
+  font-size: 14px;
+  padding: 5px;
+  border: 1px solid;
+  background-color: white;
+  width: 68px;
+}
+
+.jumia-pay4 {
+  font-size: 14px;
+  padding: 5px;
+  border: 1px solid;
+  background-color: white;
+  width: 140px;
+  padding-left: 10px;
+}
+
+
+
+/* ;
+
+
+
+
+*/
+
+
+.header {
+  position: sticky;
+  top: 0px;
+  display: flex;
+  height: 80px;
+  align-items: center;
+  margin: 0px -10px;
+  z-index: 500;
+  background-color: white;
+}
+
+
+
+
+.left-header div img {
+  width: 150px;
+  height: 70px;
+  cursor: pointer;
+  margin-right: 120px;
+  object-fit: cover;
+}
+
+.right-header {
+  display: flex;
+  flex: 1;
+  align-items: center;
+}
+
+.search-div {
+  display: flex;
+  align-items: center;
+  background-color: white;
+  border: 1px solid rgb(223, 222, 222);
+  height: 40px;
+  cursor: pointer;
+  border-radius: 5px;
+  
+}
+
+.search-div img {
+  width: 25px;
+  padding-left: 5px;
+}
+
+
+
+.search-button h5 {
+  background-color: rgb(243, 134, 0);
+  padding: 13px 13px;
+  border-radius: 5px;
+  margin-left: 10px;
+  cursor: pointer;
+  color: white;
+  font-size: 16px;
+}
+
+.search-button h5:active {
+  border: 3px solid rgb(83, 56, 4);
+}
+
+.search-button h5:hover {
+  background-color: rgb(185, 110, 18);
+}
+
+
+.account-div {
+  display: flex;
+  align-items: center;
+  
+}
+.account-div:active {
+  padding: 0px 10px;
+  background-color: lightgray;
+  border-radius: 5px;
+}
+
+.sharp img {
+  width: 20px;
+}
+
+.account1 h3 {
+  cursor: pointer;
+  color: rgb(95, 92, 92);
+}
+
+.account1 h3:hover {
+  color: orange;
+}
+
+.account1 h3:active {
+  color: rgb(39, 38, 38);
+}
+
+.greater h5 {
+  margin-left: 10px;
+  cursor: pointer;
+}
+
+.account-div:active .active-div {
+  opacity: 1;
+  transition: 1s;
+}
+
+.account1 {
+  margin-left: 30px;
+}
+
+.greater {
+  position: relative;
+}
+
+.active-div {
+  position: absolute;
+  left: -150px;
+  top: 54px;
+  width: 240px;
+  opacity: 0;
+  pointer-events: none;
+  background-color: white;
+  border-radius: 5px;
+  border: 1px solid lightgray;
+}
+
+.sign-div {
+  padding: 0px 0px 0px 13px;
+  border-bottom: 1px solid lightgray;
+}
+
+.sign-div1 {
+  padding: 0px 0px 0px 15px;
+  border-top: 1px solid lightgray;
+}
+
+.sign-div h4, .sign-div1 h4 {
+  background-color: rgb(243, 134, 0);
+  width: 90px;
+  padding: 12px 60px;
+  cursor: pointer;
+  border-radius: 5px;
+  color: white;
+  box-shadow: 2px 3px 10px lightgray;
+}
+
+.sign-div h4:hover {
+  background-color: rgb(185, 110, 18);
+}
+
+
+.my-account-div {
+  display: flex;
+  align-items: center;
+  padding-left: 10px;
+}
+
+.my-account-div div img {
+  width: 25px;
+  margin-right: 10px;
+}
+
+.my {
+  font-size: px;
+  color: rgb(73, 70, 70);
+}
